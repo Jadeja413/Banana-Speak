@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 :root {
-    --primary-color: #FCD34D;
-    --secondary-color: white;
+    --primary-color: #FACC15;
+
 
 }
 
-body{
+body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0px;
 
 }
 
-.head{
+.head {
     text-align: center;
     padding: 3rem;
     background-color: var(--primary-color);
@@ -24,19 +24,21 @@ body{
     height: 10vh;
     margin: auto;
     padding: 1rem;
-    
-    
+
+
 }
+
 .output {
     border: 1px solid black;
     width: 450px;
     height: 10vh;
     margin: auto;
     padding: 1rem;
-    
-    
+
+
 
 }
+
 .button {
     width: 10rem;
     height: 5vh;
@@ -56,14 +58,13 @@ body{
 }
 
 .footer {
-    background-color: #FCD34D;
+    background-color: var(--primary-color);
     margin-top: 3rem;
 }
 
 .footer-head {
-    font-size:x-large;
+    font-size: x-large;
     text-align: center;
     padding: 1rem;
     font-weight: bold;
 }
-
